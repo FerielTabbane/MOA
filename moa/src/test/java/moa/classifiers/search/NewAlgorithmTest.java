@@ -11,7 +11,7 @@ public class NewAlgorithmTest extends TestCase {
 	    }
 	    
 	    public void testBinarySearchWithNegativeNumbers() {
-	        int[] arr = {-1, -2, -3, -4, -5};
+	        int[] arr = {-1, -2, -3, -4, -6};
 			int x = -3;
 			int expectedResult = -1;
 			int result = NewAlgorithm.searchwithConstraints(arr, x);
