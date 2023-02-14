@@ -1,4 +1,5 @@
 package moa.classifiers.search;
+
 public class NewAlgorithm {
 	
 	public static int binarySearch(int[] arr, int x) {
@@ -15,7 +16,7 @@ public class NewAlgorithm {
     return -1;
 	}
 	
-	public  boolean verifyArray(int[] arr, int x) {
+	public  static boolean verifyArray(int[] arr, int x) {
 		
 		for (int i = 0; i < arr.length; i++) {
         if (arr[i] < 0) {
@@ -27,7 +28,7 @@ public class NewAlgorithm {
 	}
 	return true;
 	}
-	public int searchwithConstraints(int[] arr, int x) {
+	public static int searchwithConstraints(int[] arr, int x) {
 		
 		
 		if (verifyArray(arr, x)) {
